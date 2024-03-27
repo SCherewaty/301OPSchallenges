@@ -3,21 +3,16 @@
 # 03/26/2024
 
 # Script: Ops 301 Challenge 02
+# Author: Steve Cherewaty
 # Purpose: Append date and time
 
-# Current date 
-month= date +%m
-day= date +%d
-year= date +%y
-# Current time
-hour= date +%H
-minutes= date +%M
-seconds= date +%S
+
+today=$( date +%m%d%y)
 
 # Copy the syslog file to the current directory
-cp /var/log/syslog ./ 
+cp /var/log/syslog ./syslog.$today
 
-echo "Current Date: $day-$month-$year" >> syslog
-echo "Current Time: $hour:$minutes:$seconds" >> syslog 
+
+
 
 
