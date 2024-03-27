@@ -2,21 +2,21 @@
 
 # 03/26/2024
 
-# Script: Ops 301 Challenge 03
+# Script: Ops 301 Challenge 02
 # Author: Steve Cherewaty
-# Purpose: Adjust permissions
+# Purpose: Change file permissions
 
 # Show the file permissions for the test file
 ls -al
 
 #Ask user for the name of the file to change permissions
-echo "Please enter directory name intended for permission changes:"
-read input_testdir
+echo "Please enter file name intended for permissions changes:"
+read input_filename
 
-echo $input_testdir
+echo $input_filename
 
 # Change permisssions
-chmod 777 $input_testdir
+chmod 755 $input_filename
 
 # See changes
 ls -al
