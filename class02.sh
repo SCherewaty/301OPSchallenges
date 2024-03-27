@@ -7,7 +7,7 @@
 # Purpose: Append date and time
 
 
-today=$( date +%m%d%y)
+today=$(date +%m%d%y)
 
 # Copy the syslog file to the current directory
 cp /var/log/syslog ./syslog.$today
