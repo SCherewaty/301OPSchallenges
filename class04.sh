@@ -4,31 +4,19 @@
 
 # Script: Ops 301 Challenge 04
 # Author: Steve Cherewaty
-# Purpose: Conditional statement practice
+# Purpose: Creating menus
 
-# echo $target
-target=$RANDOM
-let "target %= 100"
-let "target += 1"
+# create the user menu
 
+echo "Hello World!"
 
-# create the loop
-while true; do 
-    echo "Guess a number between 1 and 100:"
-    read guess
-    echo $guess
+if [ "`ping -c 1 127.0.0.1`" ]
+then 
+    echo 1
+else
+    echo 0
+fi
 
-# Is the guess correct?
-    if [ $guess -eq $target ]; then 
-    echo "You got it!"
-    fi
+echo "Network Adapter:"
 
-# Is the guess too high or too low?
-    if [ $guess -gt $target ]; then 
-        echo "Too high...try again."
-    else 
-        echo "Too low...try again."
-    fi
-
-done
 
