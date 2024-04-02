@@ -9,12 +9,6 @@
 # SImple print to the screen
 print ("Hello World!")
 
-#Variables
-# greeting = "Welcome to python!"
-
-#call the variable
-# print (greeting)
-
 # import a library / modules
 import os
 # list = os.system("ls")
