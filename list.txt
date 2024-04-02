@@ -1,0 +1,14 @@
+backups
+class02.sh
+class03practice.sh
+class03.sh
+class04prac.sh
+class04.sh
+class05prac.sh
+class05.sh
+class06.py
+list.txt
+README.md
+syslog-test
+testdir
+wtmp-test

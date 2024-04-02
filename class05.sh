@@ -41,6 +41,8 @@ for file in "${LOG_FILES[@]}"; do
 #clear the contents of the log file
 cat /dev/null > "$file"
 
+end
+
 
 
 
