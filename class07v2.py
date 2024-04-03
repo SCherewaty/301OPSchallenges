@@ -23,15 +23,15 @@ def make_a_sandwich(user_name):
    # square brackets indicate a list
    # sandwich_ingredients = [bread, cheese, meat, veggies, condiments]
    
-   print(f"\nThis is {user_name}'s favorite sandwich: ")
+print(f"\nThis is {user_name}'s favorite sandwich: ")
    
    # Unpack the tuple in a for loop and print each ingredient
-    for ingredients in (sandwich_ingredients):
+for ingredients in (sandwich_ingredients):
        print(ingredients)
     
        
-       user = input("What is your name: ")
-       make_a_sandwich(user)
+user = input("What is your name: ")
+make_a_sandwich(user)
        
     
     
