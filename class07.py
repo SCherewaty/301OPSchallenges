@@ -6,20 +6,27 @@
 # Author: Steve Cherewaty
 # Purpose: Python script using os.walk
 
-# Define a function 
-def my_first_function():
-    
-    print("This is inside the function.")
-    
-# Define a second function
-def function_with_parameters(name):
-    print(f"Your name is: {name}")
-    
-# call function
-my_first_function()
-#function_with_parameters("Steve")
+# impport libraries
+import os
 
-# Ask user for their name
-username = input("Enter your username:")
-function_with_parameters(username)
+# function
 
+# Use os walk from os library
+
+# os walk in a function
+def first_python_function(dir_name):
+    for (root,dirs,files) in os.walk("/home/steve/" + dir_name)
+    print("===root===")
+    print(root)
+    
+    print("===dirs===")
+    print(dirs)
+    
+    print("===dirs===")
+    print(dirs)
+    
+
+    
+user_input = input("Type the name of the directory")
+    
+first_python_function(user_input)
