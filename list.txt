@@ -7,8 +7,11 @@ class04.sh
 class05prac.sh
 class05.sh
 class06.py
+class07.py
+class07v2.py
 list.txt
 README.md
 syslog-test
 testdir
+user.txt
 wtmp-test
