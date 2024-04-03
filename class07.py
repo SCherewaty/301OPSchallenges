@@ -15,15 +15,15 @@ import os
 
 # os walk in a function
 def first_python_function(dir_name):
-    for (root,dirs,files) in os.walk("/home/steve/" + dir_name)
-    print("===root===")
-    print(root)
+    for (root,dirs,files) in os.walk("/home/steve/" + dir_name):
+        print("===root===")
+        print(root)
     
-    print("===dirs===")
-    print(dirs)
+        print("===dirs===")
+        print(dirs)
     
-    print("===dirs===")
-    print(dirs)
+        print("===dirs===")
+        print(dirs)
     
 
     
