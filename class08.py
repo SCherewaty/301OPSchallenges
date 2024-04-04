@@ -6,40 +6,26 @@
 # Author: Steve Cherewaty
 # Purpose: Tuples and lists
 
-# Create a tuple
-thistuple = ("apple", "banana", "cherry", "Orange", "kiwi", "melon", "bread")
-print("This is the tuple: " + str(thistuple))
 
-# Create a list
-grocery_list = ["apple", "banana", "cherry", "Orange", "kiwi", "melon", "bread"]
-print("This is the list: " + str(thistuple))
+# Assign a variable to a list of 10 string elements
+parts_list = ["gears", "harnesses", "sheets", "sprockets", "tools", "glue", "wires", "transistor", "Pi", "lcd"]
+print("These are your parts: " + str(theparts))
 
-# Print the first item in the list
-# print("This is the first item in the list: " + grocery_list[0])
+#  Print the 4th item on the list
+print("Element 4 only:")
+print(parts_list[3])
 
-# print("This is the last item in the list: " + grocery_list[2])
-# OR
-# print("This is the last item in the list: " + grocery_list[-1])
 
-# print a slice (range) of the list
-# print 3rd to the 5th item
-# print(grocery_list[2:5])
+# Print the 6th through the 10th item on the list
+print("Elements 6-10 only:")
+print(parts_list[:5])
 
-# Print from beginning of the list to a specific number
-print(grocery_list[:4])
+# Add something 
+parts_list[6] = "glue"
+print(parts_list)
 
-# Add an item to the list
-grocery_list.append("steak")
-print(grocery_list)
 
-grocery_list.insert(1, "butter")
-print(grocery_list)
-
-grocery_list.remove("butter")
-print(grocery_list)
-
-# Print a slice of items with a step value
-print(grocery_list[1:8:2])
+#
 
 
 
