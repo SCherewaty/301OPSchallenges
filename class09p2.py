@@ -38,8 +38,9 @@ else:
 if wind == "strong":
     print("It's windy outside.")
     if pollen_count > 70:
+    print("The temperature is average.")
         
-    elif pollen_count <= 70 and pollen_count > 30:
+elif pollen_count <= 70 and pollen_count > 30:
         print("It's windy with a moderate pollen count.")
     else:
         print("No worries, it's windy but with a low pollen count")
