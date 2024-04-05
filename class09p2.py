@@ -4,7 +4,7 @@
 
 # Script: Ops 301 Challenge 07
 # Author: Steve Cherewaty
-# Purpose: Conditionals 
+# Purpose: Python Conditional Statements
 
 #AND statements: BOTH things have to be true
 #OR statements: Only one needs to be true
