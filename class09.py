@@ -24,7 +24,7 @@ else:
     print("The laser is clean. Get to work!")
     
 # If-elif-else statement
-if internal_temp < 100:
+if internal_temp <= 100:
     print("The tube is good to go.")
 elif internal_temp > 100:
     print("The tube's gonna blow!.")
