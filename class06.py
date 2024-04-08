@@ -11,8 +11,8 @@ print ("Hello World!")
 
 # import a library / modules
 import os
-# list = os.system("ls")
-# user = os.system("whoami")
+list = os.system("ls")
+user = os.system("whoami")
 
 # Executing command but redirecting output to a txt file
 os.system("ls > list.txt")
@@ -23,10 +23,13 @@ for file in ["list.txt", "user.txt"]:
     with open(file, "r") as content:
       
       output = content.read()
-      # print(output)  
+   
       
       #print out the contents using f-strings
-       # print(f"command output: {output}")
+    print(f"command output: {output}")
     print ("command output:" + output)
+    
+    
+    
+    
 
-#
