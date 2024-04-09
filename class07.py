@@ -9,6 +9,9 @@
 # import libraries
 import os
 
+# Ask the user for a file path
+user_input = input("type in the directory name from origin folder: ")
+
 # os walk in a function
 def python_function(dir_name):
     for (root,dirs,files) in os.walk("/home/stevamous/" + dir_name):
@@ -22,8 +25,6 @@ def python_function(dir_name):
         print("===files===")
         print(files)
         
-# Ask the user for a file path
-user_input = input("type in the directory name from origin folder: ")
 
 # Call the function and pass the variable 
 python_function(user_input)             
