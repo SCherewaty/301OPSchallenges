@@ -6,33 +6,25 @@
 # Author: Steve Cherewaty
 # Purpose: Python script using os.walk
 
-# impport libraries
+# import libraries
 import os
 
 # os walk in a function
-def first_python_function(dir_name):
-    for (root,dirs,files) in os.walk("/home/steve/" + dir_name):
-        for dir_name in dirs:
-            
-def main()
-
-while True:
-    dir_name = input("Enter directory path: ")
-    if os.path.isdir(dir_name):
-        
-    else:
-            
+def python_function(dir_name):
+    for (root,dirs,files) in os.walk("/home/stevamous/" + dir_name):
+        # print root
         print("===root===")
-       # print(root)
-    
+        print(root)
+        # print dirs
         print("===dirs===")
-        # print(dirs)
-    
-        print("===dirs===")
-       # print(dirs)
-    
+        print(dirs)
+        # print files
+        print("===files===")
+        print(files)
+        
+# Ask the user for a file path
+user_input = input("type in the directory name from origin folder: ")
 
-    
-# user_input = input("Type the name of the directory")
-    
-# first_python_function(user_input)
+# Call the function and pass the variable 
+python_function(user_input)             
+
