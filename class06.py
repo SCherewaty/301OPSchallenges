@@ -29,6 +29,10 @@ for file in ["list.txt", "user.txt"]:
     print(f"command output: {output}")
     print ("command output:" + output)
     
+    os.remove(file)
+    print(f"Deleted {file} file \n")
+    
+    
     
     
     

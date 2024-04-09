@@ -30,3 +30,4 @@ print(f"CPU Consumption: {psutil.times.guest()}\n")
 
 
 
+
