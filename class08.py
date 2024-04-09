@@ -9,7 +9,7 @@
 
 # Assign a variable to a list of 10 string elements
 parts_list = ["gears", "harnesses", "sheets", "sprockets", "tools", "glue", "wires", "transistor", "Pi", "lcd"]
-print("These are your parts: " + str(theparts))
+print("These are your parts: " + str(parts_list))
 
 #  Print the 4th item on the list
 print("Element 4 only:")
@@ -25,7 +25,7 @@ parts_list[6] = "glue"
 print(parts_list)
 
 
-#
+
 
 
 
