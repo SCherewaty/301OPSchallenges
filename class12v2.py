@@ -14,7 +14,7 @@ import requests
 def user_menu():
     #what conditionals to choose? IF, PUT, ELSE, ELIF?
 
-def send_requests():
+    def send_requests():
     
 # Print to the screen the entire request to the screen 
 
