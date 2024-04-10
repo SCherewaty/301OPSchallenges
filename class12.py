@@ -17,12 +17,12 @@ response = requests.get('https://api.github.com')
 # PART 2 Do a get request using the requests library and assign a variable
 response = get('https://api.github.com')
 
-# print(response.text)
-# print(response.headers)
-# print(response.content)
+print(response.text)
+print(response.headers)
+print(response.content)
 print(response.status_code)
 
-#new 
+
 
 
 
